@@ -21,9 +21,6 @@ function logger() {
 
 // calling / running / invoking function
 logger();
-logger();
-logger();
-
 function fruitProcessor(apples, oranges) {
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
   return juice;
@@ -39,6 +36,9 @@ const num = Number('23');
 
 
 ///////////////////////////////////////
+logger();
+logger();
+
 // Function Declarations vs. Expressions
 
 // Function declaration
